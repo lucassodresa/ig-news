@@ -1,11 +1,9 @@
 import { SigInButton } from "../SigInButton";
 import Image from "next/image";
 import styles from "./styles.module.scss";
-import { useRouter } from "next/router";
 import { ActiveLink } from "../ActiveLink";
 
 export const Header = () => {
-  const { asPath } = useRouter();
   return (
     <header className={styles.headerContainer}>
       <div className={styles.headerContent}>
