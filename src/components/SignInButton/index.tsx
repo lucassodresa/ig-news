@@ -3,7 +3,7 @@ import { FiX } from "react-icons/fi";
 import { useSession, signIn, signOut } from "next-auth/react";
 
 import styles from "./styles.module.scss";
-export const SigInButton = () => {
+export const SignInButton = () => {
   const { data: session } = useSession();
 
   return session ? (

@@ -1,4 +1,4 @@
-import { SigInButton } from "../SigInButton";
+import { SignInButton } from "../SignInButton";
 import Image from "next/image";
 import styles from "./styles.module.scss";
 import { ActiveLink } from "../ActiveLink";
@@ -17,7 +17,7 @@ export const Header = () => {
           </ActiveLink>
         </nav>
 
-        <SigInButton />
+        <SignInButton />
       </div>
     </header>
   );
